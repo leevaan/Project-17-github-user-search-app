@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{  
+	font-family: "Space Mono";
+	/*730vw - 340vw _ 15x - 13px */
+	font-size: clamp(0.8125rem, 0.7035rem + 0.5128vw, 0.9375rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px; /* 166.667% */
+
+    box-sizing: border-box; 
+	outline: none;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* body {
+	line-height: 1;
+} */
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+	text-underline-offset: 5px;
+	text-decoration-color: rgb(151, 151, 151);
+}
+
+/* h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1.17em;
+}
+h4{
+	font-size: 1em;
+}
+h5{
+	font-size: 0.83em;
+}
+h6{
+	font-size: 0.67em;
+}
+p{
+	font-size: 1em;
+} */
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+
+    /* loading="eager"
+	loading:lazy; */

@@ -1,0 +1,52 @@
+*{
+    color: #FFF;
+}
+html{
+    background-color:  #141D2F !important;
+}
+.logo{
+    color: #FFF ;
+}
+.theme{
+    color: #FFF;
+}
+.theme::after{
+    margin-left: 16px;
+    vertical-align: text-top;
+    content: url(./assets/icon-sun.svg                    )
+}
+.theme:hover{
+    color: #90A4D4;
+}
+.theme:hover::after{
+    content: url(./assets/hover-icon-sun.svg)
+}
+
+.search-cont{
+    background: #1E2A47;
+}
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: #FFF;
+  }
+::placeholder {
+    color: #FFF;
+}
+.value{
+    color: #FFF;
+    background: #1E2A47;
+}
+main{
+    background: #1E2A47;
+}
+#user-name{
+    color: #FFF;
+} 
+.user-body{
+    background: #141D2F;
+}
+td{
+    color: #FFF;
+}
+g, path{
+    fill: #FFF;
+}

@@ -1,0 +1,49 @@
+*{
+    color: #4B6A9B;
+}
+html{
+    background-color:  #F6F8FF !important;
+}
+.logo{
+    color: #222731;
+}
+.theme{
+    color: #697C9A;
+}
+.theme::after{
+    margin-left: 16px;
+    vertical-align: text-top;
+    content: url(./assets/icon-moon.svg)
+}
+.theme:hover{
+    color: #222731;
+}
+.theme:hover::after{
+    content: url(./assets/hover-icon-moon.svg)
+}
+.search-cont{
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+}
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: #4B6A9B;
+  }
+::placeholder {
+    color: #4B6A9B;
+}
+.value{
+    color: #222731;
+    background: #FEFEFE;
+}
+main{
+    background: #FEFEFE;
+}
+#user-name{
+    color: #2B3442;
+}
+.user-body{
+    background: #F6F8FF;
+}
+td{
+    color: #2B3442;
+}
